@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script defer src="script.js"></script>
+</head>
+<body> 
+    <!-- how we work with file -->
+    <form onsubmit="" id="forming">
+        <h1>Login user</h1>
+        <div>
+            <label id="froming" for="">name</label>
+            <input type="text" id="username" name="username">
+        </div>
+        <div>
+            <label for="">email</label>
+            <input type="email" id="email" name="email">
+        </div>
+        <div>
+            <label for="">message</label>
+            <input type="fill" id="fill" name="fill">
+        </div>
+    <!-- <a href="https://www.google.com">||</a> -->
+    <button type="submit">Send</button>
+    </form>
+    <br>
+    <br>
+    <div>
+        <button id="up" onclick="counter(1)">up</button>
+        <h1 id="counter">  </h1>
+        <button onclick="counter(-1)" id="down">down</button>
+    </div>
+    <br>
+    <br>
+    <div class="cost">
+        <label for="">product</label>
+        <input type="text" id="itme">
+        <label for="">cost</label>
+        <input type="number" id="cost">
+        <label for="">amount</label>
+        <input type="number" id="amount" value="1">
+        <button id="add" onclick="add()">add</button>
+    </div>
+     <div class="cart">
+
+     </div>
+     <div id="total"></div>
+    </body>
+
+</html>
